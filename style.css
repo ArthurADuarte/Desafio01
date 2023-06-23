@@ -1,0 +1,67 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+
+  text-align: center;
+  margin: 0px;
+}
+
+#hero {
+    width: 562px;
+    margin: 0 auto 72px;
+}
+
+#hero img {
+    margin-bottom: 72px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span, a {
+  color: #ff9900;
+}
+
+p {
+  color: #7D7987;
+  line-height: 28px;
+  font-size: 14px;
+  flex-direction: column;
+  width: 592px;
+    /* sofri para deixar as linhas de texto do p, em alinhamento com o texto do hero, não tive a paciência necessária para deixar 100% alinhado */
+}
+
+#footer {
+  color: #7d7987;
+  font-weight: 8px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+#footer a + a {
+    margin-left: 28px;
+    margin-bottom: 8px;
+}
+
+.line {
+    width: 568px;
+    height: 0;
+
+    margin: 0 auto 8px;
+
+    border: 1px solid #ECEFF2;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
